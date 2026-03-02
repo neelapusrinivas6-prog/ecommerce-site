@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ShopZone Pro</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="loadProducts()">
+
+<header class="navbar">
+<div class="logo">ShopZone</div>
+
+<input type="text" id="searchInput" placeholder="Search..." onkeyup="searchProduct()">
+
+<div>
+<a href="login.html" class="nav-link">Login</a>
+<a href="cart.html" class="nav-link">🛒 (<span id="cart-count">0</span>)</a>
+<button onclick="toggleDark()">🌙</button>
+</div>
+</header>
+
+<section class="products" id="product-container">
+</section>
+
+<script src="js/script.js"></script>
+</body>
+</html>
